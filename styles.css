@@ -1,0 +1,200 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.hero{
+  position:relative;
+  width: 100%;
+  height: 15vh;
+  background: rgb(3, 104, 90);
+}
+
+.hero port{
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+nav{
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+
+}
+
+nav ul li a:hover{
+  color: red;
+}
+
+.detel{
+  margin-left: 8%;
+  margin-top: 15%;
+}
+.detel h1{
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+span{
+  color:blue;
+
+}
+.detel p{
+  color:#555
+
+}
+.images{
+  width: 45%;
+  height:80%;
+  position:absolute;
+  bottom: 0;
+  right: 100px;
+}
+.images img{
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  bottom: 20;
+  transform: translate(-50%);
+  transition: bootom 1s, left 1s;
+  align-items: right;
+
+}
+
+.p{
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: aqua;
+  text-align: center;
+  text-decoration: dotted;
+}
+#a{
+  font-size: large;
+}
+.page-header{
+  color:blue;
+}
+.lead{
+  color: black;
+}
+.hero1{
+  position:relative;
+  width: 100%;
+  height: 10vh;
+  background:#eff4fd;
+}
+.ara{
+  color:black;
+  size:0cap; 
+}
+.myDiv {
+  background-color: lightblue;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mydiv1 ico .img1{
+  
+    display: flex;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*
+.mydiv1 ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+  text-align: center;
+  height: 20px;
+  width: 10px;
+}*/
+.img1{
+ 
+  width: 40px;
+}
+/* .icon{
+  display: flex;
+  display: inline;
+  justify-content: space-around;
+} */
+
+.about-skill {
+	padding: 50px 0px;
+}
+.about-skill p {
+	font-size: 19px;
+	line-height: 30px;
+	color: black;
+}
+.about-skill p span {
+  
+	color: rgb(185, 70, 201);
+	font-weight: 600;
+}
+.skill-section {
+	font-size: 35px;
+	color: black;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+.skill-section p {
+	float: left;
+	margin-bottom: 4px;
+	color: black;
+	font-size: 15px;
+}
+.skill-section span {
+	float: right;
+	margin-bottom: 5px;
+	color: black;
+	font-size: 15px;
+	margin-right: 40px;
+}
+.skill-experience {
+	width: 100%;
+	float: left;
+	background: #e7e7e7;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+.skill-experience span {
+	background: purple;
+	height: 5px;
+	float: left;
+}
+.port{
+  color: #000;
+}
+.mydiv1{
+  font-size: 80px;
+  display: flex;
+  /*justify-content: space-between;*/
+  margin-top: 45px;
+  justify-content: space-around;
+}
+.container h1{
+  color: green;
+}
